@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Shilpa Maam",
+    "email": "shilpa123@gmail.com",
+    "phoneNumber": "1234567890",
+    "password": "123456",
+    "subjects": ["Maths", "Science", "English"],
+    "popularityScore": "4",
+    "joiningDate": "2021-06-19,10:00"
+  },
+  {
+    "name": "Tripti Maam",
+    "email": "Tripti123@gmail.com",
+    "phoneNumber": "1234598765",
+    "password": "1234567888",
+    "subjects": ["Physics", "Communications", "English"],
+    "popularityScore": "10",
+    "joiningDate": "2019-03-21,10:00"
+  },
+  {
+    "name": "Ananya Maam",
+    "email": "Ananya123@gmail.com",
+    "phoneNumber": "1234567760",
+    "password": "1234591816",
+    "subjects": ["English", "German"],
+    "popularityScore": "7",
+    "joiningDate": "2020-04-12,10:00"
+  },
+  {
+    "name": "Geetanjali Maam",
+    "email": "Geeta@gmail.com",
+    "phoneNumber": "1243567890",
+    "password": "1234561237",
+    "subjects": ["Computers", "Science"],
+    "popularityScore": "10",
+    "joiningDate": "2021-02-12,10:00"
+  },
+  {
+    "name": "veenita Maam",
+    "email": "veenita1123@gmail.com",
+    "phoneNumber": "1232345890",
+    "password": "123458726",
+    "subjects": ["Stocks", "Communications", "English"],
+    "popularityScore": "3",
+    "joiningDate": "2020-04-10,10:00"
+  },
+  {
+    "name": "Bhavya Maam",
+    "email": "Bhavya123@gmail.com",
+    "phoneNumber": "1256789012",
+    "password": "123456982",
+    "subjects": ["Software Engineering", "English"],
+    "popularityScore": "15",
+    "joiningDate": "2018-06-23,10:00"
+  },
+  {
+    "name": "Charu Maam",
+    "email": "Charu129@gmail.com",
+    "phoneNumber": "5494567890",
+    "password": "123456454",
+    "subjects": ["Java Programming", "C++"],
+    "popularityScore": "8",
+    "joiningDate": "2020-12-21,10:00"
+  }
+]
