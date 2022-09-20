@@ -33,3 +33,27 @@ exports.newTeacher = async (req, res) => {
     });
   }
 };
+
+exports.famousTeacher = async (req, res) => {
+  try {
+    const teacher = await Teacher.aggregate([
+      {
+        $sort: { popularityScore: -1 },
+      },
+      {
+        $limit: 1,
+      },
+    ]);
+    res.status(200).json({
+      status: 'success',
+      data: {
+        teacher,
+      },
+    });
+  } catch (err) {
+    res.status(404).json({
+      status: 'fail',
+      message: err,
+    });
+  }
+};

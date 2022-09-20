@@ -3,8 +3,9 @@ const router = express.Router();
 
 const teacherController = require('./../controllers/teacherControllers');
 
+router.route('/most-fav-teacher').get(teacherController.famousTeacher);
 router
-  .route('/api/v1/teacher')
+  .route('/')
   .get(teacherController.getAllTeachers)
   .post(teacherController.newTeacher);
 
